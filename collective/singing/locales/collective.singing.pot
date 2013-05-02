@@ -250,3 +250,6 @@ msgstr ""
 msgid "Your subscription isn't known to us."
 msgstr ""
 
+#: collective.singing/collective/singing/scheduler.py:289
+msgid "Biweekly scheduler"
+msgstr ""
