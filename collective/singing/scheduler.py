@@ -286,6 +286,11 @@ class WeeklyScheduler(persistent.Persistent, AbstractPeriodicScheduler):
     delta = datetime.timedelta(weeks=1)
 
 
+class BiweeklyScheduler(persistent.Persistent, AbstractPeriodicScheduler):
+    title = _(u"Biweekly scheduler")
+    delta = datetime.timedelta(weeks=2)    
+
+
 class ManualScheduler(persistent.Persistent, AbstractPeriodicScheduler):
     title = _(u"Manual scheduler")
     delta = datetime.timedelta()
@@ -329,4 +334,4 @@ class TimedScheduler(persistent.Persistent, AbstractPeriodicScheduler):
     def __ne__(self, other):
         return not self == other
 
-schedulers = (WeeklyScheduler, DailyScheduler, ManualScheduler, TimedScheduler)
+schedulers = (BiweeklyScheduler, WeeklyScheduler, DailyScheduler, ManualScheduler, TimedScheduler)
