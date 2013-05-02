@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-12-10 02:12+0000\n"
+"POT-Creation-Date: 2013-05-02 10:24+0000\n"
 "PO-Revision-Date: 2008-10-07 14:53+0800\n"
 "Last-Translator: adam tang(315ok.org) <yuejun.tang@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
 
-#: ./interfaces.py:31
+#: ./interfaces.py:32
 msgid "A schema instance for use in the subscription form"
 msgstr ""
 
@@ -22,9 +22,13 @@ msgstr ""
 msgid "Active"
 msgstr ""
 
-#: ./browser/subscribe.py:228
+#: ./browser/subscribe.py:238
 msgid "Address"
 msgstr "邮件地址"
+
+#: ./scheduler.py:290
+msgid "Biweekly scheduler"
+msgstr ""
 
 #: ./interfaces.py:237
 msgid "Collector (what)"
@@ -42,7 +46,7 @@ msgstr ""
 msgid "Composer data"
 msgstr ""
 
-#: ./scheduler.py:270
+#: ./scheduler.py:280
 msgid "Daily scheduler"
 msgstr "每日运行"
 
@@ -50,32 +54,32 @@ msgstr "每日运行"
 msgid "Description"
 msgstr "描述"
 
-#: ./browser/subscribe.py:131
+#: ./browser/subscribe.py:139
 msgid "Fill in the information below to subscribe."
 msgstr "为了预订成功，请填写下面相关信息。"
 
-#: ./browser/subscribe.py:114
+#: ./browser/subscribe.py:121
 msgid "Filters"
 msgstr "过滤"
 
-#: ./browser/wizard.py:102
+#: ./browser/wizard.py:107
 msgid "Finish"
 msgstr "完成"
 
-#: ./browser/subscribe.py:44
+#: ./browser/subscribe.py:49
 #: ./interfaces.py:244
 msgid "Format"
 msgstr "格式"
 
-#: ./interfaces.py:346
+#: ./interfaces.py:348
 msgid "IMessageChanged is fired automatically when this is set"
 msgstr ""
 
-#: ./interfaces.py:26
-msgid "Include items from this collector even if there are no no items returned by significant siblings."
+#: ./interfaces.py:27
+msgid "Include items from this collector even if there are no items returned by significant siblings."
 msgstr ""
 
-#: ./browser/wizard.py:26
+#: ./browser/wizard.py:31
 msgid "Information submitted successfully."
 msgstr "信息提交成功。"
 
@@ -83,11 +87,11 @@ msgstr "信息提交成功。"
 msgid "Keep a record of sent messages."
 msgstr ""
 
-#: ./interfaces.py:354
+#: ./interfaces.py:357
 msgid "Last time this message changed its status"
 msgstr ""
 
-#: ./scheduler.py:278
+#: ./scheduler.py:295
 msgid "Manual scheduler"
 msgstr "手工调度"
 
@@ -95,15 +99,15 @@ msgstr "手工调度"
 msgid "Metadata"
 msgstr ""
 
-#: ./interfaces.py:362
+#: ./interfaces.py:365
 msgid "Old status of message"
 msgstr ""
 
-#: ./browser/wizard.py:84
+#: ./browser/wizard.py:89
 msgid "Proceed"
 msgstr "处理"
 
-#: ./browser/subscribe.py:220
+#: ./browser/subscribe.py:230
 msgid "Retrieve a link to your personalized subscription settings"
 msgstr "提取一个链接到个人预订设置"
 
@@ -111,31 +115,31 @@ msgstr "提取一个链接到个人预订设置"
 msgid "Scheduler (when)"
 msgstr "调度（何时）"
 
-#: ./browser/subscribe.py:233
+#: ./browser/subscribe.py:243
 msgid "Send"
 msgstr "发送"
 
-#: ./browser/subscribe.py:77
+#: ./browser/subscribe.py:83
 msgid "Send my subscription details"
 msgstr "发送我的预订情况到我邮箱"
 
-#: ./interfaces.py:25
+#: ./interfaces.py:26
 msgid "Significant"
 msgstr ""
 
-#: ./interfaces.py:345
+#: ./interfaces.py:347
 msgid "State"
 msgstr ""
 
-#: ./interfaces.py:350
+#: ./interfaces.py:353
 msgid "Status details"
 msgstr ""
 
-#: ./collector.py:28
+#: ./collector.py:31
 msgid "Subjects"
 msgstr "主题"
 
-#: ./collector.py:25
+#: ./collector.py:28
 msgid "Subjects collector"
 msgstr "主题收集器"
 
@@ -143,23 +147,23 @@ msgstr "主题收集器"
 msgid "Subscribeable"
 msgstr "可以预定"
 
-#: ./interfaces.py:21
+#: ./interfaces.py:22
 msgid "Subscriber optional"
 msgstr ""
 
-#: ./interfaces.py:340
+#: ./interfaces.py:342
 msgid "Subscription, referenced for bookkeeping purposes only."
 msgstr ""
 
-#: ./browser/subscribe.py:132
+#: ./browser/subscribe.py:140
 msgid "Thanks for your subscription; we sent you a message for confirmation."
 msgstr "感谢您的预订，我们发送了一份确认邮件。"
 
-#: ./browser/subscribe.py:107
+#: ./browser/subscribe.py:113
 msgid "Thanks.  We sent you a message."
 msgstr "谢谢，我们给您发送了一份邮件"
 
-#: ./interfaces.py:57
+#: ./interfaces.py:58
 msgid "The Composer's format, e.g. 'html'"
 msgstr ""
 
@@ -167,7 +171,7 @@ msgstr ""
 msgid "The Composer's title, e.g. 'HTML E-Mail'"
 msgstr ""
 
-#: ./browser/subscribe.py:229
+#: ./browser/subscribe.py:239
 msgid "The address you're already subscribed with"
 msgstr "你采用的地址已经预订过了"
 
@@ -183,7 +187,7 @@ msgstr ""
 msgid "The channel's subscriptions"
 msgstr "该频道的预订者列表"
 
-#: ./interfaces.py:336
+#: ./interfaces.py:338
 msgid "The message's payload, e.g. the e-mail message."
 msgstr ""
 
@@ -191,11 +195,11 @@ msgstr ""
 msgid "The subscriber's secret, ideally unique across channels"
 msgstr ""
 
-#: ./browser/wizard.py:27
+#: ./browser/wizard.py:32
 msgid "There were errors."
 msgstr "有错"
 
-#: ./subscribe.py:223
+#: ./subscribe.py:238
 msgid "There's already a subscription for ${name}"
 msgstr "${name}已经有了预订"
 
@@ -207,11 +211,11 @@ msgstr ""
 msgid "This is not currently recommended for large volumes of messages due to storage requirements."
 msgstr ""
 
-#: ./scheduler.py:285
+#: ./scheduler.py:303
 msgid "Timed scheduler"
 msgstr "时间调度"
 
-#: ./interfaces.py:17
+#: ./interfaces.py:18
 msgid "Title"
 msgstr "标题"
 
@@ -227,7 +231,7 @@ msgstr ""
 msgid "Unique identifier for this channel across the site."
 msgstr "频道整站唯一标识符"
 
-#: ./interfaces.py:32
+#: ./interfaces.py:33
 msgid "Values are stored via the ICollectorData adapter per subscriber."
 msgstr ""
 
@@ -235,15 +239,15 @@ msgstr ""
 msgid "Values are stored via the IComposerData adapter per subscriber."
 msgstr ""
 
-#: ./scheduler.py:274
+#: ./scheduler.py:285
 msgid "Weekly scheduler"
 msgstr "每周运行"
 
-#: ./browser/subscribe.py:135
+#: ./browser/subscribe.py:143
 msgid "You are already subscribed."
 msgstr "你已经预订了。"
 
-#: ./browser/subscribe.py:96
+#: ./browser/subscribe.py:102
 msgid "Your subscription isn't known to us."
 msgstr "你的预订不可识别。"
 

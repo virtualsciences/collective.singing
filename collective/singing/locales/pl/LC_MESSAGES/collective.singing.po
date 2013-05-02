@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-12-10 02:12+0000\n"
+"POT-Creation-Date: 2013-05-02 10:24+0000\n"
 "PO-Revision-Date: 2011-06-17 15:58+0100\n"
 "Last-Translator: Piotr Furman <piotr.furman@webservice.pl>\n"
 "Language-Team: Silva i18n team <walco@infrae.com>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Domain: DOMAIN\n"
 "Generated-By: zope/app/translation_files/extract.py\n"
 
-#: ./interfaces.py:31
+#: ./interfaces.py:32
 #, fuzzy
 msgid "A schema instance for use in the subscription form"
 msgstr "Schemat do wykorzystania w formularzu subskrypcji"
@@ -24,9 +24,13 @@ msgstr "Schemat do wykorzystania w formularzu subskrypcji"
 msgid "Active"
 msgstr "Aktywny"
 
-#: ./browser/subscribe.py:228
+#: ./browser/subscribe.py:238
 msgid "Address"
 msgstr "Adres"
+
+#: ./scheduler.py:290
+msgid "Biweekly scheduler"
+msgstr ""
 
 #: ./interfaces.py:237
 msgid "Collector (what)"
@@ -44,7 +48,7 @@ msgstr "Kompozytor"
 msgid "Composer data"
 msgstr "Dane kompozytora"
 
-#: ./scheduler.py:270
+#: ./scheduler.py:280
 msgid "Daily scheduler"
 msgstr "Dzienny planista"
 
@@ -52,33 +56,32 @@ msgstr "Dzienny planista"
 msgid "Description"
 msgstr "Opis"
 
-#: ./browser/subscribe.py:131
+#: ./browser/subscribe.py:139
 msgid "Fill in the information below to subscribe."
 msgstr "Wypełnij poniższe informacje aby subskrybować."
 
-#: ./browser/subscribe.py:114
+#: ./browser/subscribe.py:121
 msgid "Filters"
 msgstr "Filtry"
 
-#: ./browser/wizard.py:102
+#: ./browser/wizard.py:107
 msgid "Finish"
 msgstr "Zakończ"
 
-#: ./browser/subscribe.py:44
+#: ./browser/subscribe.py:49
 #: ./interfaces.py:244
 msgid "Format"
 msgstr "Format"
 
-#: ./interfaces.py:346
+#: ./interfaces.py:348
 msgid "IMessageChanged is fired automatically when this is set"
 msgstr "Zdarzenie IMessageChanged zostanie wywołane automatycznie po ustawieniu tego stanu"
 
-#: ./interfaces.py:26
-#, fuzzy
-msgid "Include items from this collector even if there are no no items returned by significant siblings."
-msgstr "Dołącz elementy z tego kolekcjonera nawet jeśli nie zostały zwrócone ważne elementy."
+#: ./interfaces.py:27
+msgid "Include items from this collector even if there are no items returned by significant siblings."
+msgstr ""
 
-#: ./browser/wizard.py:26
+#: ./browser/wizard.py:31
 msgid "Information submitted successfully."
 msgstr "Informacja przesłana pomyślnie."
 
@@ -86,11 +89,11 @@ msgstr "Informacja przesłana pomyślnie."
 msgid "Keep a record of sent messages."
 msgstr "Przechowuj listę wysłanych wiadomości"
 
-#: ./interfaces.py:354
+#: ./interfaces.py:357
 msgid "Last time this message changed its status"
 msgstr "Data ostatniej zmiany stanu"
 
-#: ./scheduler.py:278
+#: ./scheduler.py:295
 msgid "Manual scheduler"
 msgstr "Ręczny planista"
 
@@ -98,15 +101,15 @@ msgstr "Ręczny planista"
 msgid "Metadata"
 msgstr "Metadane"
 
-#: ./interfaces.py:362
+#: ./interfaces.py:365
 msgid "Old status of message"
 msgstr "Poprzedni stan wiadomości"
 
-#: ./browser/wizard.py:84
+#: ./browser/wizard.py:89
 msgid "Proceed"
 msgstr "Kontynuuj"
 
-#: ./browser/subscribe.py:220
+#: ./browser/subscribe.py:230
 msgid "Retrieve a link to your personalized subscription settings"
 msgstr "Pobierz link do Twoich spersonalizowanych ustawień subskrypcji"
 
@@ -114,31 +117,31 @@ msgstr "Pobierz link do Twoich spersonalizowanych ustawień subskrypcji"
 msgid "Scheduler (when)"
 msgstr "Planista"
 
-#: ./browser/subscribe.py:233
+#: ./browser/subscribe.py:243
 msgid "Send"
 msgstr "Wyślij"
 
-#: ./browser/subscribe.py:77
+#: ./browser/subscribe.py:83
 msgid "Send my subscription details"
 msgstr "Wyślij szczegóły mojej subskrybcji"
 
-#: ./interfaces.py:25
+#: ./interfaces.py:26
 msgid "Significant"
 msgstr "Ważne"
 
-#: ./interfaces.py:345
+#: ./interfaces.py:347
 msgid "State"
 msgstr "Stan"
 
-#: ./interfaces.py:350
+#: ./interfaces.py:353
 msgid "Status details"
 msgstr "Szczegóły stanu"
 
-#: ./collector.py:28
+#: ./collector.py:31
 msgid "Subjects"
 msgstr "Tematy"
 
-#: ./collector.py:25
+#: ./collector.py:28
 msgid "Subjects collector"
 msgstr "Kolekcjoner tematów"
 
@@ -146,23 +149,23 @@ msgstr "Kolekcjoner tematów"
 msgid "Subscribeable"
 msgstr "Możliwość subskrybcji"
 
-#: ./interfaces.py:21
+#: ./interfaces.py:22
 msgid "Subscriber optional"
 msgstr "Opcjonalna subskrypcja"
 
-#: ./interfaces.py:340
+#: ./interfaces.py:342
 msgid "Subscription, referenced for bookkeeping purposes only."
 msgstr ""
 
-#: ./browser/subscribe.py:132
+#: ./browser/subscribe.py:140
 msgid "Thanks for your subscription; we sent you a message for confirmation."
 msgstr "Dziękujemy za Twoją subskrybcję; wysłaliśmy Tobie wiadomość z potwierdzeniem."
 
-#: ./browser/subscribe.py:107
+#: ./browser/subscribe.py:113
 msgid "Thanks.  We sent you a message."
 msgstr "Dziękujemy. Wysłaliśmy Tobie wiadomość."
 
-#: ./interfaces.py:57
+#: ./interfaces.py:58
 msgid "The Composer's format, e.g. 'html'"
 msgstr "Format kompozytora, np. 'html'"
 
@@ -171,7 +174,7 @@ msgid "The Composer's title, e.g. 'HTML E-Mail'"
 msgstr "Tytuł kompozytora, np. 'E-mail HTML'"
 
 # ?
-#: ./browser/subscribe.py:229
+#: ./browser/subscribe.py:239
 msgid "The address you're already subscribed with"
 msgstr "Adres, pod którym Twoja subskrybcja już istnieje "
 
@@ -187,7 +190,7 @@ msgstr "Kompozytor kanału, przyporządkowany wg formatu"
 msgid "The channel's subscriptions"
 msgstr "Subskrybcje kanału"
 
-#: ./interfaces.py:336
+#: ./interfaces.py:338
 msgid "The message's payload, e.g. the e-mail message."
 msgstr "Dane wiadomości, np. treść wiadomości e-mail."
 
@@ -195,11 +198,11 @@ msgstr "Dane wiadomości, np. treść wiadomości e-mail."
 msgid "The subscriber's secret, ideally unique across channels"
 msgstr ""
 
-#: ./browser/wizard.py:27
+#: ./browser/wizard.py:32
 msgid "There were errors."
 msgstr "Wystąpiły błędy."
 
-#: ./subscribe.py:223
+#: ./subscribe.py:238
 msgid "There's already a subscription for ${name}"
 msgstr "Subskcrypcja dla ${name} jest już aktywna"
 
@@ -211,11 +214,11 @@ msgstr "Kolejki wiadomości kanału, uporządkowane wg statusu wiadomości"
 msgid "This is not currently recommended for large volumes of messages due to storage requirements."
 msgstr "Nie jest zalecane dla dużej liczby wiadomości ze względu na wymagania magazynowania."
 
-#: ./scheduler.py:285
+#: ./scheduler.py:303
 msgid "Timed scheduler"
 msgstr "Synchronizowany planista"
 
-#: ./interfaces.py:17
+#: ./interfaces.py:18
 msgid "Title"
 msgstr "Tytuł"
 
@@ -231,7 +234,7 @@ msgstr "Data ostatniego uruchomienia"
 msgid "Unique identifier for this channel across the site."
 msgstr "Unikalny identyfikator tego kanału dla całej witryny"
 
-#: ./interfaces.py:32
+#: ./interfaces.py:33
 #, fuzzy
 msgid "Values are stored via the ICollectorData adapter per subscriber."
 msgstr "Wartości są przechowywane za pomocą adaptera ICollectorData dla subskrybenta."
@@ -241,16 +244,16 @@ msgstr "Wartości są przechowywane za pomocą adaptera ICollectorData dla subsk
 msgid "Values are stored via the IComposerData adapter per subscriber."
 msgstr "Wartości są przechowywane za pomocą adaptera IComposerData dla subskrybenta."
 
-#: ./scheduler.py:274
+#: ./scheduler.py:285
 msgid "Weekly scheduler"
 msgstr "Tygodniowy planista"
 
 # ?
-#: ./browser/subscribe.py:135
+#: ./browser/subscribe.py:143
 msgid "You are already subscribed."
 msgstr "Jesteś już subskrybentem."
 
-#: ./browser/subscribe.py:96
+#: ./browser/subscribe.py:102
 msgid "Your subscription isn't known to us."
 msgstr "Twoja subskrybcja nie jest nam znana."
 

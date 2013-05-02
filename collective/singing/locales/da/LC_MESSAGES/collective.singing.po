@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-12-10 02:12+0000\n"
+"POT-Creation-Date: 2013-05-02 10:24+0000\n"
 "PO-Revision-Date: 2009-10-15 10:35+0200\n"
 "Last-Translator: Jakob Bartholdy Bruun <jakob@headnet.dk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: collective.singing\n"
 
-#: ./interfaces.py:31
+#: ./interfaces.py:32
 msgid "A schema instance for use in the subscription form"
 msgstr ""
 
@@ -22,9 +22,13 @@ msgstr ""
 msgid "Active"
 msgstr ""
 
-#: ./browser/subscribe.py:228
+#: ./browser/subscribe.py:238
 msgid "Address"
 msgstr "E-mail"
+
+#: ./scheduler.py:290
+msgid "Biweekly scheduler"
+msgstr ""
 
 #: ./interfaces.py:237
 msgid "Collector (what)"
@@ -42,7 +46,7 @@ msgstr ""
 msgid "Composer data"
 msgstr ""
 
-#: ./scheduler.py:270
+#: ./scheduler.py:280
 msgid "Daily scheduler"
 msgstr "Daglig udsendelse"
 
@@ -50,32 +54,32 @@ msgstr "Daglig udsendelse"
 msgid "Description"
 msgstr "Beskrivelse"
 
-#: ./browser/subscribe.py:131
+#: ./browser/subscribe.py:139
 msgid "Fill in the information below to subscribe."
 msgstr "Udfyld felterne for at tilmelde dig."
 
-#: ./browser/subscribe.py:114
+#: ./browser/subscribe.py:121
 msgid "Filters"
 msgstr "Filtre"
 
-#: ./browser/wizard.py:102
+#: ./browser/wizard.py:107
 msgid "Finish"
 msgstr "Tilmeld"
 
-#: ./browser/subscribe.py:44
+#: ./browser/subscribe.py:49
 #: ./interfaces.py:244
 msgid "Format"
 msgstr "Format"
 
-#: ./interfaces.py:346
+#: ./interfaces.py:348
 msgid "IMessageChanged is fired automatically when this is set"
 msgstr ""
 
-#: ./interfaces.py:26
-msgid "Include items from this collector even if there are no no items returned by significant siblings."
+#: ./interfaces.py:27
+msgid "Include items from this collector even if there are no items returned by significant siblings."
 msgstr ""
 
-#: ./browser/wizard.py:26
+#: ./browser/wizard.py:31
 msgid "Information submitted successfully."
 msgstr "Vi har modtaget dine oplysninger."
 
@@ -83,11 +87,11 @@ msgstr "Vi har modtaget dine oplysninger."
 msgid "Keep a record of sent messages."
 msgstr ""
 
-#: ./interfaces.py:354
+#: ./interfaces.py:357
 msgid "Last time this message changed its status"
 msgstr ""
 
-#: ./scheduler.py:278
+#: ./scheduler.py:295
 msgid "Manual scheduler"
 msgstr ""
 
@@ -95,15 +99,15 @@ msgstr ""
 msgid "Metadata"
 msgstr ""
 
-#: ./interfaces.py:362
+#: ./interfaces.py:365
 msgid "Old status of message"
 msgstr ""
 
-#: ./browser/wizard.py:84
+#: ./browser/wizard.py:89
 msgid "Proceed"
 msgstr "Fortsæt"
 
-#: ./browser/subscribe.py:220
+#: ./browser/subscribe.py:230
 msgid "Retrieve a link to your personalized subscription settings"
 msgstr "Få tilsendt et link til side med dine tilmeldinger"
 
@@ -111,31 +115,31 @@ msgstr "Få tilsendt et link til side med dine tilmeldinger"
 msgid "Scheduler (when)"
 msgstr "Udsender (hvornår)"
 
-#: ./browser/subscribe.py:233
+#: ./browser/subscribe.py:243
 msgid "Send"
 msgstr "Send"
 
-#: ./browser/subscribe.py:77
+#: ./browser/subscribe.py:83
 msgid "Send my subscription details"
 msgstr "Send link til mine abonnementer"
 
-#: ./interfaces.py:25
+#: ./interfaces.py:26
 msgid "Significant"
 msgstr ""
 
-#: ./interfaces.py:345
+#: ./interfaces.py:347
 msgid "State"
 msgstr ""
 
-#: ./interfaces.py:350
+#: ./interfaces.py:353
 msgid "Status details"
 msgstr ""
 
-#: ./collector.py:28
+#: ./collector.py:31
 msgid "Subjects"
 msgstr ""
 
-#: ./collector.py:25
+#: ./collector.py:28
 msgid "Subjects collector"
 msgstr ""
 
@@ -143,23 +147,23 @@ msgstr ""
 msgid "Subscribeable"
 msgstr "Abonnerbar"
 
-#: ./interfaces.py:21
+#: ./interfaces.py:22
 msgid "Subscriber optional"
 msgstr ""
 
-#: ./interfaces.py:340
+#: ./interfaces.py:342
 msgid "Subscription, referenced for bookkeeping purposes only."
 msgstr ""
 
-#: ./browser/subscribe.py:132
+#: ./browser/subscribe.py:140
 msgid "Thanks for your subscription; we sent you a message for confirmation."
 msgstr "Tak for din tilmelding; vi har sendt en mail med anmodning om godkendelse."
 
-#: ./browser/subscribe.py:107
+#: ./browser/subscribe.py:113
 msgid "Thanks.  We sent you a message."
 msgstr "Tak. Vi har sendt en e-mail til dig."
 
-#: ./interfaces.py:57
+#: ./interfaces.py:58
 msgid "The Composer's format, e.g. 'html'"
 msgstr ""
 
@@ -167,7 +171,7 @@ msgstr ""
 msgid "The Composer's title, e.g. 'HTML E-Mail'"
 msgstr ""
 
-#: ./browser/subscribe.py:229
+#: ./browser/subscribe.py:239
 msgid "The address you're already subscribed with"
 msgstr "Den e-mail-adresse, du allerede er tilmeldt med"
 
@@ -183,7 +187,7 @@ msgstr ""
 msgid "The channel's subscriptions"
 msgstr "Kanalens abonnenter"
 
-#: ./interfaces.py:336
+#: ./interfaces.py:338
 msgid "The message's payload, e.g. the e-mail message."
 msgstr ""
 
@@ -191,11 +195,11 @@ msgstr ""
 msgid "The subscriber's secret, ideally unique across channels"
 msgstr ""
 
-#: ./browser/wizard.py:27
+#: ./browser/wizard.py:32
 msgid "There were errors."
 msgstr "Et eller flere af felterne var ikke udfyldt korrekt."
 
-#: ./subscribe.py:223
+#: ./subscribe.py:238
 msgid "There's already a subscription for ${name}"
 msgstr ""
 
@@ -207,11 +211,11 @@ msgstr ""
 msgid "This is not currently recommended for large volumes of messages due to storage requirements."
 msgstr ""
 
-#: ./scheduler.py:285
+#: ./scheduler.py:303
 msgid "Timed scheduler"
 msgstr ""
 
-#: ./interfaces.py:17
+#: ./interfaces.py:18
 msgid "Title"
 msgstr "Titel"
 
@@ -227,7 +231,7 @@ msgstr ""
 msgid "Unique identifier for this channel across the site."
 msgstr "Unik id for denne kanal - gælder over hele sitet."
 
-#: ./interfaces.py:32
+#: ./interfaces.py:33
 msgid "Values are stored via the ICollectorData adapter per subscriber."
 msgstr ""
 
@@ -235,15 +239,15 @@ msgstr ""
 msgid "Values are stored via the IComposerData adapter per subscriber."
 msgstr ""
 
-#: ./scheduler.py:274
+#: ./scheduler.py:285
 msgid "Weekly scheduler"
 msgstr "Ugentlig udsendelse"
 
-#: ./browser/subscribe.py:135
+#: ./browser/subscribe.py:143
 msgid "You are already subscribed."
 msgstr "Du abonnerer allerede"
 
-#: ./browser/subscribe.py:96
+#: ./browser/subscribe.py:102
 msgid "Your subscription isn't known to us."
 msgstr "Systemet kender ikke dit abonnement."
 

@@ -4,9 +4,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collective.singing trunk\n"
-"POT-Creation-Date: 2011-12-10 02:12+0000\n"
-"PO-Revision-Date: 2010-03-17 13:17+0100\n"
-"Last-Translator: Rob Gietema <rob@fourdigits.nl>\n"
+"POT-Creation-Date: 2013-05-02 10:24+0000\n"
+"PO-Revision-Date: 2013-05-02 10:24+0000\n"
+"Last-Translator: Jarno de Wit <jarno.de.wit@virtualsciences.nl>\n"
 "Language-Team: Dutch <plone-nl@lists.plone.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-15\n"
@@ -18,17 +18,21 @@ msgstr ""
 "Domain: DOMAIN\n"
 "Report-Msgid-Bugs-To: \n"
 
-#: ./interfaces.py:31
+#: ./interfaces.py:32
 msgid "A schema instance for use in the subscription form"
 msgstr ""
 
 #: ./interfaces.py:111
 msgid "Active"
-msgstr ""
+msgstr "Actief"
 
-#: ./browser/subscribe.py:228
+#: ./browser/subscribe.py:238
 msgid "Address"
 msgstr "Adres"
+
+#: ./scheduler.py:290
+msgid "Biweekly scheduler"
+msgstr "Tweewekelijks planner"
 
 #: ./interfaces.py:237
 msgid "Collector (what)"
@@ -46,7 +50,7 @@ msgstr ""
 msgid "Composer data"
 msgstr ""
 
-#: ./scheduler.py:270
+#: ./scheduler.py:280
 msgid "Daily scheduler"
 msgstr "Dagelijkse planner"
 
@@ -54,32 +58,32 @@ msgstr "Dagelijkse planner"
 msgid "Description"
 msgstr "Beschrijving"
 
-#: ./browser/subscribe.py:131
+#: ./browser/subscribe.py:139
 msgid "Fill in the information below to subscribe."
 msgstr "Vul het inschrijfformulier in."
 
-#: ./browser/subscribe.py:114
+#: ./browser/subscribe.py:121
 msgid "Filters"
 msgstr "Filters"
 
-#: ./browser/wizard.py:102
+#: ./browser/wizard.py:107
 msgid "Finish"
 msgstr "Afronden"
 
-#: ./browser/subscribe.py:44
+#: ./browser/subscribe.py:49
 #: ./interfaces.py:244
 msgid "Format"
 msgstr "Opmaak"
 
-#: ./interfaces.py:346
+#: ./interfaces.py:348
 msgid "IMessageChanged is fired automatically when this is set"
 msgstr ""
 
-#: ./interfaces.py:26
-msgid "Include items from this collector even if there are no no items returned by significant siblings."
+#: ./interfaces.py:27
+msgid "Include items from this collector even if there are no items returned by significant siblings."
 msgstr ""
 
-#: ./browser/wizard.py:26
+#: ./browser/wizard.py:31
 msgid "Information submitted successfully."
 msgstr "Uw informatie is succesvol verzonden."
 
@@ -87,11 +91,11 @@ msgstr "Uw informatie is succesvol verzonden."
 msgid "Keep a record of sent messages."
 msgstr ""
 
-#: ./interfaces.py:354
+#: ./interfaces.py:357
 msgid "Last time this message changed its status"
 msgstr ""
 
-#: ./scheduler.py:278
+#: ./scheduler.py:295
 msgid "Manual scheduler"
 msgstr "Handmatige planner"
 
@@ -99,15 +103,15 @@ msgstr "Handmatige planner"
 msgid "Metadata"
 msgstr ""
 
-#: ./interfaces.py:362
+#: ./interfaces.py:365
 msgid "Old status of message"
 msgstr ""
 
-#: ./browser/wizard.py:84
+#: ./browser/wizard.py:89
 msgid "Proceed"
 msgstr "Ga verder"
 
-#: ./browser/subscribe.py:220
+#: ./browser/subscribe.py:230
 msgid "Retrieve a link to your personalized subscription settings"
 msgstr "Ontvang een link naar de instellingen van uw abonnement."
 
@@ -115,31 +119,31 @@ msgstr "Ontvang een link naar de instellingen van uw abonnement."
 msgid "Scheduler (when)"
 msgstr "Planner"
 
-#: ./browser/subscribe.py:233
+#: ./browser/subscribe.py:243
 msgid "Send"
 msgstr "Verzenden"
 
-#: ./browser/subscribe.py:77
+#: ./browser/subscribe.py:83
 msgid "Send my subscription details"
 msgstr "Verstuur mijn inschrijfgegevens"
 
-#: ./interfaces.py:25
+#: ./interfaces.py:26
 msgid "Significant"
 msgstr ""
 
-#: ./interfaces.py:345
+#: ./interfaces.py:347
 msgid "State"
 msgstr ""
 
-#: ./interfaces.py:350
+#: ./interfaces.py:353
 msgid "Status details"
 msgstr ""
 
-#: ./collector.py:28
+#: ./collector.py:31
 msgid "Subjects"
 msgstr "Onderwerpen"
 
-#: ./collector.py:25
+#: ./collector.py:28
 msgid "Subjects collector"
 msgstr "Onderwerpencollectie"
 
@@ -147,23 +151,23 @@ msgstr "Onderwerpencollectie"
 msgid "Subscribeable"
 msgstr "Inschrijfbaar"
 
-#: ./interfaces.py:21
+#: ./interfaces.py:22
 msgid "Subscriber optional"
 msgstr ""
 
-#: ./interfaces.py:340
+#: ./interfaces.py:342
 msgid "Subscription, referenced for bookkeeping purposes only."
 msgstr ""
 
-#: ./browser/subscribe.py:132
+#: ./browser/subscribe.py:140
 msgid "Thanks for your subscription; we sent you a message for confirmation."
 msgstr "Bedankt voor uw inschrijving. U ontvangt een e-mail ter bevestiging."
 
-#: ./browser/subscribe.py:107
+#: ./browser/subscribe.py:113
 msgid "Thanks.  We sent you a message."
 msgstr "Bedankt. We hebben u een bericht gestuurd."
 
-#: ./interfaces.py:57
+#: ./interfaces.py:58
 msgid "The Composer's format, e.g. 'html'"
 msgstr ""
 
@@ -171,7 +175,7 @@ msgstr ""
 msgid "The Composer's title, e.g. 'HTML E-Mail'"
 msgstr ""
 
-#: ./browser/subscribe.py:229
+#: ./browser/subscribe.py:239
 msgid "The address you're already subscribed with"
 msgstr "Het adres waarmee u al ingeschreven bent"
 
@@ -187,7 +191,7 @@ msgstr ""
 msgid "The channel's subscriptions"
 msgstr "De inschrijvingen voor dit kanaal"
 
-#: ./interfaces.py:336
+#: ./interfaces.py:338
 msgid "The message's payload, e.g. the e-mail message."
 msgstr ""
 
@@ -195,11 +199,11 @@ msgstr ""
 msgid "The subscriber's secret, ideally unique across channels"
 msgstr ""
 
-#: ./browser/wizard.py:27
+#: ./browser/wizard.py:32
 msgid "There were errors."
 msgstr "Er is iets misgegaan."
 
-#: ./subscribe.py:223
+#: ./subscribe.py:238
 msgid "There's already a subscription for ${name}"
 msgstr "Er is al een inschrijving voor ${name}"
 
@@ -211,17 +215,17 @@ msgstr ""
 msgid "This is not currently recommended for large volumes of messages due to storage requirements."
 msgstr ""
 
-#: ./scheduler.py:285
+#: ./scheduler.py:303
 msgid "Timed scheduler"
 msgstr "Ingeroosterde planner"
 
-#: ./interfaces.py:17
+#: ./interfaces.py:18
 msgid "Title"
 msgstr "Titel"
 
 #: ./interfaces.py:201
 msgid "Total number of messages sent through this queue"
-msgstr ""
+msgstr "Totaal aantal verstuurde berichten via deze wachtrij"
 
 #: ./interfaces.py:107
 msgid "Triggered the last time"
@@ -231,7 +235,7 @@ msgstr ""
 msgid "Unique identifier for this channel across the site."
 msgstr "Unieke identificatie van dit kanaal voor deze site."
 
-#: ./interfaces.py:32
+#: ./interfaces.py:33
 msgid "Values are stored via the ICollectorData adapter per subscriber."
 msgstr ""
 
@@ -239,15 +243,15 @@ msgstr ""
 msgid "Values are stored via the IComposerData adapter per subscriber."
 msgstr ""
 
-#: ./scheduler.py:274
+#: ./scheduler.py:285
 msgid "Weekly scheduler"
 msgstr "Wekelijkse planner"
 
-#: ./browser/subscribe.py:135
+#: ./browser/subscribe.py:143
 msgid "You are already subscribed."
 msgstr "U bent al ingeschreven."
 
-#: ./browser/subscribe.py:96
+#: ./browser/subscribe.py:102
 msgid "Your subscription isn't known to us."
 msgstr "Uw inschrijving is bij ons onbekend."
 
